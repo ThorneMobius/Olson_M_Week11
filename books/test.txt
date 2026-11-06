@@ -1,0 +1,4 @@
+Generating the Codebook:
+Implement generate_code_book() to create a dictionary where each character maps to a list of page-line-position references.
+Scaffolding Tip: First try building the dictionary without using setdefault and enumerating characters.
+Note the nested for loops are due to our need to find the page, line, and position for each character in our formatted set of books.
